@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family-Poppins:wght@300;400;500;600;700;800;900&display=swap');
+body{
+    animation: transitionIn 0.75s;
+}
+@keyframes transitionIn{
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+        opacity: 0;
+        transform: rotateX(0);
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 160vh;
+    background: black;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+
+}
+
+.wrapper {
+    margin: 150px auto;
+    width: 70%;
+    color: white;
+}
+
+img {
+    max-width: 320px;
+    float: left;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.text-box h2 {
+    font-size: 58px;
+
+}
+
+.text-box h3 {
+    font-size: 42px;
+
+}
+
+.text-box p1 {
+    font-size: 18px;
+
+}
+.fa-instagram {
+    border-radius: 5px;
+    cursor: pointer; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}    
+.fa-instagram:hover, .fa-instagram:focus, .fa-instagram:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1,1);
+    transform: scale(1.1);
+}
+.fa-facebook {
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.fa-facebook:hover, .fa-facebook:focus, .fa-facebook:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1,1);
+    transform: scale(1.1);
+}
